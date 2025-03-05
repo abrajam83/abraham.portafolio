@@ -1,0 +1,16 @@
+{
+    "sentimientos": [
+        {
+            "sentimiento": "Positivo",
+            "conteo": 29
+        },
+        {
+            "sentimiento": "Neutro",
+            "conteo": 111
+        },
+        {
+            "sentimiento": "Negativo",
+            "conteo": 69
+        }
+    ]
+}

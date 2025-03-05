@@ -1,0 +1,389 @@
+{
+    "carreras": [
+        {
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 4
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "ADMINISTRACIÓN DE LA HOSPITALIDAD",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 2
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 2
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 7
+                }
+            ]
+        },
+        {
+            "carrera": "ARQUITECTURA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 10
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 11
+                }
+            ]
+        },
+        {
+            "carrera": "CIENCIAS POLÍTICAS Y ADMINISTRACIÓN PÚBLICA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "CIENCIAS TEOLÓGICAS",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 5
+                }
+            ]
+        },
+        {
+            "carrera": "COMUNICACIÓN",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 4
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 14
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 6
+                }
+            ]
+        },
+        {
+            "carrera": "DERECHO",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 2
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 12
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 13
+                }
+            ]
+        },
+        {
+            "carrera": "DISEÑO DE INDUMENTARIA Y MODA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 2
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "DISEÑO GRÁFICO",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "DISEÑO INDUSTRIAL",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 7
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "DISEÑO INTERACTIVO",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 3
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "DISEÑO TEXTIL",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "FILOSOFÍA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "FINANZAS",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "HISTORIA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "INGENIERÍA CIVIL",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 5
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "INGENIERÍA DE ALIMENTOS",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "INGENIERÍA EN MECATRÓNICA Y PRODUCCIÓN",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "INGENIERÍA EN TECNOLOGÍAS DE CÓMPUTO Y TELECOMUNICACIONES",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "INGENIERÍA FÍSICA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 1
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "INGENIERÍA INDUSTRIAL",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 2
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 8
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "INGENIERÍA MECÁNICA Y ELÉCTRICA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 1
+                }
+            ]
+        },
+        {
+            "carrera": "INGENIERÍA QUÍMICA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 2
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "LITERATURA LATINOAMERICANA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "MERCADOTECNIA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 3
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 4
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 4
+                }
+            ]
+        },
+        {
+            "carrera": "NUTRICIÓN Y CIENCIA DE LOS ALIMENTOS",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 2
+                }
+            ]
+        },
+        {
+            "carrera": "PSICOLOGÍA",
+            "sentimientos": [
+                {
+                    "sentimiento": "Positivo",
+                    "conteo": 6
+                },
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 12
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 9
+                }
+            ]
+        },
+        {
+            "carrera": "RELACIONES INTERNACIONALES",
+            "sentimientos": [
+                {
+                    "sentimiento": "Neutro",
+                    "conteo": 3
+                },
+                {
+                    "sentimiento": "Negativo",
+                    "conteo": 4
+                }
+            ]
+        }
+    ]
+}
