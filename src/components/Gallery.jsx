@@ -1,6 +1,6 @@
 import React from "react";
 import GalleryItem from "./GalleryItem";
-import { MucdCover, LaPazCover, HilandoCover, NueveOnce, iberoCover, monitoreoCover } from "../assets";
+import { MucdCover, LaPazCover, HilandoCover, NueveOnce, iberoCover, monitoreoCover, tmymvCover } from "../assets";
 
 function Gallery() {
   const projects = [
@@ -27,6 +27,10 @@ function Gallery() {
     {
       id: "monitoreo",
       backgroundImage: monitoreoCover ,
+    },
+    {
+      id: "tmymv",
+      backgroundImage: tmymvCover ,
     },
   ];
 

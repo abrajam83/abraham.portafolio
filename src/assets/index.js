@@ -28,9 +28,14 @@ import monitoreoLanding from "../assets/Monitoreo/monitoreoLanding.webp"
 import monitoreoGrafica from "../assets/Monitoreo/monitoreoGrafica.webp"
 import monitoreoBlog from "../assets/Monitoreo/monitoreoBlog.webp"
 import boy from "../assets/Monitoreo/boy.webp"
+import tmymvCover from "../assets/TMYMV/tmymvCover.webp"
+import tmymv1 from "../assets/TMYMV/tmymv1.webp"
+import tmymv2 from "../assets/TMYMV/tmymv2.webp"
+import ilustracionesTmymv1 from "../assets/TMYMV/ilustracionesTmymv1.webp"
+import ilustracionesTmymv2 from "../assets/TMYMV/ilustracionesTmymv2.webp"
+import tmymvLogoAnimado from "../assets/TMYMV/tmymvLogoAnimado.gif"
 
-
-export{
+export {
     MucdCover,
     BebbiaCover,
     LaPazCover,
@@ -60,5 +65,12 @@ export{
     monitoreoLanding,
     monitoreoGrafica,
     monitoreoBlog,
-    boy
+    boy,
+    tmymvCover,
+    tmymv1,
+    tmymv2,
+    ilustracionesTmymv1,
+    ilustracionesTmymv2,
+    tmymvLogoAnimado,
 }
+

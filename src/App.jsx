@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { LandingPage, ContactPage, NavBar, Footer, MUCD, HilandoDerechos, LaPaz, CasosDeEstudio, NueveOnce, Blog, Gallery, Monitoreo } from "./components";
+import { LandingPage, ContactPage, NavBar, Footer, MUCD, HilandoDerechos, LaPaz, CasosDeEstudio, NueveOnce, Blog, Gallery, Monitoreo, Tmymv } from "./components";
 import ScrollToTop from "./components/ScrollToTop"; // Importa ScrollToTop
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
             <Route path="/project/blog" element={<Blog />} />
             <Route path="/project/gallery" element={<Gallery />} />
             <Route path="/project/monitoreo" element={<Monitoreo />} />
+            <Route path="/project/tmymv" element={<Tmymv />} />
           </Routes>
         </main>
 

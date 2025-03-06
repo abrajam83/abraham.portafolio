@@ -20,6 +20,7 @@ import HeroCasos from "../components/HeroCasos"
 import HilandoDerechos from "../components/HilandoDerechos"
 import NueveOnce from "../components/NueveOnce"
 import Monitoreo from "../components/Monitoreo"
+import Tmymv from "../components/Tmymv"
 
 
 export{
@@ -45,4 +46,5 @@ export{
     HilandoDerechos,
     NueveOnce,
     Monitoreo,
+    Tmymv,
 }

@@ -28,6 +28,7 @@ module.exports = {
         enfoqueredBase: "#DD4445",
         enfoquepalePink: "#E2CFCF",
         enfoquelightBlue: "#6E80B7",
+        enfoqueYellow: "#EE9F43",
       }, 
 
       fontFamily: {
