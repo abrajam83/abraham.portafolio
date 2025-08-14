@@ -1,32 +1,58 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Importa useNavigate
-import heroImage from "../assets/logoAb.svg"
+import { motion } from "framer-motion";
+import { arrowUp, eyeBackground } from "../assets";
+
 
 function Hero() {
   const navigate = useNavigate(); // Hook para la navegación
 
   return (
-    <section className="bg-white">
-      <div className="container mx-auto flex flex-col justify-center max-w-screen-xl min-h-screen pb-14 px-6">
+    <section className="relative bg-black rounded-tl-xl rounded-tr-xl overflow-hidden min-h-screen z-[-20] ">
+
+      <img
+        src={eyeBackground}
+        alt="Fondo"
+        className="absolute inset-0 w-full h-full bg-no-repeat object-cover scale-[1.5] translate-y-[-5%] z-[-10] translate-x-[-25%] opacity-80"
+        style={{ backgroundImage: `url(${eyeBackground})` }}
+      />
+
+      <div className="container mx-auto flex flex-col justify-center max-w-screen-2xl min-h-screen px-12 md:px-20 lg:px-48">
         {/* Contenedor del texto */}
-        <div className="w-full ">
-          <h1 className="text-[160px] font-normal font-montserrat text-text tracking-tighter">
+
+        <div className="w-full mt-8">
+          <h1 className="text-[70px] font-bold font-maison text-white tracking-normal leading-none">
             Hola!
           </h1>
-          <p className="text-lg mb-4 ml-3 font-notosans font-normal text-text max-w-2xl">
-          Mi nombre es Abraham Maldonado, diseñador apasionado por participar en proyectos que aporten valor y generen un impacto positivo en las personas, a través de soluciones y productos útiles que respondan a sus necesidades. Me he especializado en aplicar metodologías centradas en el usuario que transforman desafíos en diseños innovadores, interfaces intuitivas y resultados que equilibran los objetivos comerciales con las expectativas del usuario. <br/> <br/>A continuación te comparto algunos de mis proyectos más relevantes.
+          <h2 className="text-[50px] font-normal font-maison text-white tracking-normal leading-none">
+            Soy Abraham
+          </h2>
+          <p className="text-2xl mb-16 font-playfair text-stone-400 italic mt-2">
+            Visual & brand designer
+          </p>
+          <p className="text-[18px] font-maison font-normal text-slate-200 max-w-md leading-tight tracking-wide">
+            Transformo ideas en soluciones visuales <br /> que conectan, comunican y generan impacto.
           </p>
         </div>
-        <button 
-          className="flex flex-col p-4 text-white bg-black font-montserrat max-w-sm rounded-md ml-2 mt-10"
-          onClick={() => navigate("/project/gallery")} // Redirige a /gallery
-        >
-          <h1>Portafolio</h1>
-        </button>
-        
+
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
+          transition={{ repeat: Infinity, duration: 1.5 }}
+          className="max-w-6 mt-14">
+          <img src={arrowUp} alt="Scroll" className="rotate-180" />
+        </motion.div>
+
+
       </div>
     </section>
   );
 }
 
 export default Hero;
+
+{/* <button 
+          className="flex flex-col p-4 text-white bg-black font-montserrat max-w-[300px] rounded-xl mt-10"
+          onClick={() => navigate("/project/gallery")} // Redirige a /gallery
+        >
+          <h1>Portafolio</h1>
+        </button> */}

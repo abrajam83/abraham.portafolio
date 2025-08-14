@@ -21,16 +21,16 @@ function MUCD() {
                     <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 h-[300px] md:h-[500px]">
                         {/* Contenedor del título */}
                         <motion.div
-                            className="flex flex-col text-center md:text-start justify-center  mb-5"
+                            className="flex flex-col text-center md:text-start justify-center mb-5"
                             initial={{ opacity: 0, y: 50 }}
                             animate={isInView[0] ? { opacity: 1, y: 0 } : {}}
                             transition={{ delay: 0.3, duration: 1 }}
                         >
                             <h1 className="text-[40px] md:text-[60px] font-semibold font-montserrat leading-none">
-                                Micrositio Simo 
+                                Micrositio Simo
                             </h1>
                             <h1 className="text-[40px] md:text-[40px] font-semibold font-montserrat leading-none">
-                                 Monitoreo COVID-19
+                                Monitoreo COVID-19
                             </h1>
                         </motion.div>
 
@@ -41,8 +41,8 @@ function MUCD() {
                             animate={isInView[0] ? { opacity: 1, y: 0 } : {}}
                             transition={{ delay: 0.3, duration: 1 }}
                         >
-                            <p className=" font-notosans font-light leading-relaxed md:text-lg text-textlight">
-                            El micrositio SIMO fue diseñado como una herramienta de mapeo para analizar los hábitos de consumo, los cambios en el comportamiento, así como las actitudes y emociones de la sociedad. Su objetivo era proporcionar información clave que permitiera al sector público y privado fortalecer el vínculo con sus audiencias y tomar decisiones más acertadas.
+                            <p className="font-notosans font-light leading-relaxed md:text-lg text-textlight">
+                                El micrositio SIMO fue diseñado como una herramienta de mapeo para analizar los hábitos de consumo, los cambios en el comportamiento, así como las actitudes y emociones de la sociedad. Su objetivo era proporcionar información clave que permitiera al sector público y privado fortalecer el vínculo con sus audiencias y tomar decisiones más acertadas.
                             </p>
                         </motion.div>
                     </div>
@@ -50,7 +50,7 @@ function MUCD() {
 
                 {/* Contenedor de imágenes (ocupa todo el ancho de la pantalla) */}
                 <motion.div
-                    className="grid grid-cols-1  w-full mt-10 mx-auto"
+                    className="grid grid-cols-1 w-full mt-10 mx-auto"
                     initial={{ clipPath: 'inset(0% 0% 0% 100%)' }}
                     animate={isInView[0] ? { clipPath: 'inset(0% 0% 0% 0%)' } : {}}
                     transition={{ delay: 0.5, duration: 0.4 }}
@@ -106,35 +106,37 @@ function MUCD() {
                 </div>
             </div>
 
-<div className=" bg-white justify-center">
+            <div className=" bg-white justify-center">
 
-            <div className="  grid grid-cols-1 md:grid-cols-2 md:gap-10 h-[400px] min-h-[600px] max-w-screen-xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 h-[400px] min-h-[800px] max-w-screen-xl mx-auto">
 
-                <motion.div className="flex justify-center md:justify-start items-center p-28 "
-                    ref={sectionRefs[2]}
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
-                    transition={{ delay: 0.3, duration: 1 }}>
-                    <img
-                        src={boy}
-                        alt="Imagen 4"
-                        className="w-full"
-                    />
-                </motion.div>
+                    <motion.div className="flex justify-center md:justify-start items-center lg:p-28 "
+                        ref={sectionRefs[2]}
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.3, duration: 1 }}>
+                        <img
+                            src={boy}
+                            alt="Imagen 4"
+                            className="min-h-[300px] max-h-[600px]"
+                        />
+                    </motion.div>
 
-                <motion.div
-                    ref={sectionRefs[2]}
-                    className="flex text-center md:text-start items-center mx-auto justify-center p-10"
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
-                    transition={{ delay: 0.3, duration: 1 }}
-                >
-                    <p className=" font-notosans font-light leading-relaxed md:text-lg text-textlight">
-                    El prototipo del micrositio fue realizado en Figma, incorporando el diseño de personajes creados en Cinema 4D. Esta decisión respondió a la tendencia de diseño de aquel entonces, que evitaba el uso de fotografías de personas, optando en su lugar por ilustraciones y modelos tridimensionales para mantener una estética neutral y atemporal.
 
-                    </p>
-                </motion.div>
-            </div>
+                    <motion.div
+                        ref={sectionRefs[2]}
+                        className="flex text-center md:text-start items-center mx-auto justify-center p-10"
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.3, duration: 1 }}
+                    >
+                        <p className="font-notosans font-light leading-relaxed md:text-lg text-textlight">
+                            El prototipo del micrositio fue realizado en Figma, incorporando el diseño de personajes creados en Cinema 4D. Esta decisión respondió a la tendencia de diseño de aquel entonces, que evitaba el uso de fotografías de personas, optando en su lugar por ilustraciones y modelos tridimensionales para mantener una estética neutral y atemporal.
+                        </p>
+                    </motion.div>
+
+
+                </div>
             </div>
 
         </div>

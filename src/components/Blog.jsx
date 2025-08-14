@@ -1,7 +1,8 @@
 import React from 'react'
-import { ConteoGeneral, ConteoCarrera, NubePositiva, NubeNegativa } from "../components";
+import { ConteoGeneral, ConteoCarrera, NubePositiva, NubeNegativa, NavBar } from "../components";
 
 const Blog = () => {
+  
   return (
     <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased mt-20">
       <div className="flex justify-between px-4 mx-auto max-w-screen-xl">

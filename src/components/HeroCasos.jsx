@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/logoAb.svg"
+
 function Hero() {
   return (
     <section className="bg-white">

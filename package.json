@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://github.com/abrajam83/abraham.portafolio.git",
+  "homepage":"https://abraham83.github.io/abraham.portafolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

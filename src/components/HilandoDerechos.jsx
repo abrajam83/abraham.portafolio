@@ -65,7 +65,7 @@ function MUCD() {
                             <img
                                 src={Intro}
                                 alt="Imagen 1"
-                                className="max-w-screen-lg" />
+                                className="max-w-screen-lg w-full" />
                         </motion.div>
                     </div>
                 </motion.div>
@@ -106,35 +106,39 @@ function MUCD() {
                 </div>
             </div>
 
-<div className=" bg-hilandocream justify-center">
+            <div className=" bg-hilandocream justify-center">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 h-[400px] min-h-[600px] max-w-screen-xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 min-h-[600px] max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16 xl:px-20">
 
-                <motion.div className="flex justify-center md:justify-start items-center p-40"
-                    ref={sectionRefs[2]}
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
-                    transition={{ delay: 0.3, duration: 1 }}>
-                    <img
-                        src={LogoHD}
-                        alt="Imagen 4"
-                        className="w-full mb-4"
-                    />
-                </motion.div>
+                    {/* Contenedor de la imagen */}
+                    <motion.div
+                        className="flex justify-center items-center"
+                        ref={sectionRefs[2]}
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.3, duration: 1 }}
+                    >
+                        <img
+                            src={LogoHD}
+                            alt="Imagen 4"
+                            className="w-full max-w-[clamp(200px,30vw,400px)] self-end md:self-center mb-4 md:mb-0"
+                        />
+                    </motion.div>
 
-                <motion.div
-                    ref={sectionRefs[2]}
-                    className="flex text-center md:text-start items-center mx-auto justify-center p-10"
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
-                    transition={{ delay: 0.3, duration: 1 }}
-                >
-                    <p className=" font-notosans font-light leading-relaxed md:text-lg text-textlight">
-                        Las trabajadoras de la industria de la indumentaria en México viven de manera cotidiana una serie de violaciones a sus derechos laborales derivado de la falta de conocimientos en torno a ellos, la normalización de la violencia en sus espacios de trabajo y la falta de mecanismos de exigibilidad que impulsen a las empresas a respetar, garantizar y proteger los mismos a lo largo de toda la cadena de valor de la industria.
+                    {/* Contenedor del texto */}
+                    <motion.div
+                        ref={sectionRefs[2]}
+                        className="flex items-center justify-center md:justify-start self-start md:self-center"
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.3, duration: 1 }}
+                    >
+                        <p className="font-notosans font-light leading-relaxed text-center md:text-start text-[clamp(16px,1.2vw,18px)] text-textlight max-w-[clamp(250px,90%,500px)]">
+                            Las trabajadoras de la industria de la indumentaria en México viven de manera cotidiana una serie de violaciones a sus derechos laborales derivado de la falta de conocimientos en torno a ellos, la normalización de la violencia en sus espacios de trabajo y la falta de mecanismos de exigibilidad que impulsen a las empresas a respetar, garantizar y proteger los mismos a lo largo de toda la cadena de valor de la industria.
+                        </p>
+                    </motion.div>
 
-                    </p>
-                </motion.div>
-            </div>
+                </div>
             </div>
 
             <div className="grid grid-cols-1 xl:grid-cols-2 w-full">

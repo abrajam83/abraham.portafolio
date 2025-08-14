@@ -5,7 +5,7 @@ function GalleryItem({ id, backgroundImage }) {
   return (
     <Link
       to={`/project/${id}`}
-      className="relative group block overflow-hidden"
+      className="relative group block overflow-hidden "
     >
       {/* Contenedor con proporción fija */}
       <div className="aspect-w-16 aspect-h-9">

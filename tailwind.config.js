@@ -6,6 +6,15 @@ module.exports = {
   theme: {
 
     extend: {
+
+       screens: {
+        '1595': '1595px', 
+        'lg1140': '1140px',
+      },
+
+      transformOrigin: {
+        'right': '100%', // Define el origen de la transformación en el borde derecho
+      },
       colors: {
         mucdBlue: "#084C85",
         mucdBlueLight: "#8AAED9",
@@ -24,11 +33,27 @@ module.exports = {
         verdeSimo1: "#80B71E",
         verdeSimo2: "#007077",
         verdeSimo3: "#005257",
+        verdeSimo4: "#02969C",
         enfoqueBlue: "#1A1C34",
         enfoqueredBase: "#DD4445",
         enfoquepalePink: "#E2CFCF",
         enfoquelightBlue: "#6E80B7",
+        enfoquepaleBlue: "#B3C5E5",
         enfoqueYellow: "#EE9F43",
+        iberoBlue:"#276685",
+        iberoLightBlue:"#779FB3",
+        iberoLightGray: "#D5D1CF",
+        esmaFondo: "#e7e7e7",
+        gray150: "#fcfaf7" ,
+        gray200: "#f8f5ef" ,
+        gray300: "#f3f0e8" ,
+        gray400: "#eeebe2" ,
+        gray500: "#e9e5dc" ,
+        gray600: "#c5c1b8" ,
+        gray700: "#a09c94" ,
+        gray800: "#7b7870" ,
+        gray900: "#56534d" ,
+        gray950: "#302e2b" ,
       }, 
 
       fontFamily: {
@@ -37,6 +62,11 @@ module.exports = {
         manrope: ["Manrope", 'serif'],
         notosans: ["Noto Sans", 'serif'],
         epilogue: ["Epilogue", 'serif'],
+        passion: ["Passion One", 'serif'],
+        playfair: ["Playfair Display", 'serif'],
+        anton: ["Anton", 'sans-serif'],
+        maison: ["Maison", 'sans-serif'],
+        maisonMono: ["MaisonMono", 'sans-serif']
       },
 
       aspectRatio: {

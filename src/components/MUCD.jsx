@@ -88,7 +88,7 @@ function MUCD() {
           transition={{ duration: 0.8 }}
         >
           {/* Imagen 3 */}
-          <div className="bg-mucdGreen flex items-center justify-center px-16 lg:py-14 xl:py-40">
+          <div className="bg-mucdGreen flex items-center justify-center py-10 px-16 lg:py-14 xl:py-40">
             <img
               src={Info4Web}
               alt="Imagen 3"
@@ -100,7 +100,7 @@ function MUCD() {
           </div>
 
           {/* Imagen 4 */}
-          <div className="bg-mucdBlue flex items-center justify-center px-16 lg:py-14 xl:py-40">
+          <div className="bg-mucdBlue flex items-center justify-center py-10 px-16 lg:py-14 xl:py-40">
             <img
               src={Info3Web}
               alt="Imagen 4"

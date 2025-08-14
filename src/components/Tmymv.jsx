@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { LogoHD, tmymv1, tmymv2, ilustracionesTmymv1, ilustracionesTmymv2, tmymvLogoAnimado } from "../assets";
+import { LogoHD, tmymv1, tmymv2, ilustracionesTmymv1, ilustracionesTmymv2, tmymvLogoAnimado, sitioTmymvLap } from "../assets";
 import { motion, useInView } from "framer-motion";
 
 function MUCD() {
@@ -39,7 +39,7 @@ function MUCD() {
                             transition={{ delay: 0.3, duration: 1 }}
                         >
                             <p className=" font-notosans font-light leading-relaxed md:text-lg text-textlight">
-                            La plataforma “Tu memoria y mi voz. Narrativas de la desaparición en México” forma parte del proyecto de investigación “Garantías de no repetición: Construyendo la narrativa y memoria colectiva en torno a la desaparición de personas en México” que SIMO Consulting realizó en colaboración con EnfoqueDH Políticas Públicas en Derechos Humanos, programa financiado por la Agencia de los Estados Unidos para el Desarrollo Internacional (USAID). 
+                                La plataforma “Tu memoria y mi voz. Narrativas de la desaparición en México” forma parte del proyecto de investigación “Garantías de no repetición: Construyendo la narrativa y memoria colectiva en torno a la desaparición de personas en México” que SIMO Consulting realizó en colaboración con EnfoqueDH Políticas Públicas en Derechos Humanos, programa financiado por la Agencia de los Estados Unidos para el Desarrollo Internacional (USAID).
 
 
                             </p>
@@ -106,35 +106,42 @@ function MUCD() {
                 </div>
             </div>
 
-<div className=" bg-hilandocream justify-center">
+            <div className=" bg-enfoquepaleBlue justify-center">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 h-[400px] min-h-[600px] max-w-screen-xl mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] md:gap-10 h-[400px] min-h-[700px] max-w-screen-2xl mx-auto">
 
-                <motion.div className="flex justify-center md:justify-start items-center p-40"
-                    ref={sectionRefs[2]}
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
-                    transition={{ delay: 0.3, duration: 1 }}>
-                    <img
-                        src={LogoHD}
-                        alt="Imagen 4"
-                        className="w-full mb-4"
-                    />
-                </motion.div>
+                    <motion.div className="flex justify-center md:justify-start items-center md:self-end "
+                        ref={sectionRefs[2]}
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.3, duration: 1 }}>
+                        <img
+                            src={sitioTmymvLap}
+                            alt="Visita TMYMV"
+                            className="w-full"
+                        />
+                    </motion.div>
 
-                <motion.div
-                    ref={sectionRefs[2]}
-                    className="flex text-center md:text-start items-center mx-auto justify-center p-10"
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
-                    transition={{ delay: 0.3, duration: 1 }}
-                >
-                    <p className=" font-notosans font-light leading-relaxed md:text-lg text-textlight">
-                        Las trabajadoras de la industria de la indumentaria en México viven de manera cotidiana una serie de violaciones a sus derechos laborales derivado de la falta de conocimientos en torno a ellos, la normalización de la violencia en sus espacios de trabajo y la falta de mecanismos de exigibilidad que impulsen a las empresas a respetar, garantizar y proteger los mismos a lo largo de toda la cadena de valor de la industria.
-
-                    </p>
-                </motion.div>
-            </div>
+                    <motion.div
+                        ref={sectionRefs[2]}
+                        className="flex text-center md:text-start items-center mx-auto justify-center"
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.3, duration: 1 }}
+                    >
+                        <p className="font-notosans font-light leading-relaxed md:text-lg text-enfoqueBlue items-center text-center text-xl">
+                            Para ver el sitio haz{" "}
+                            <a
+                                href="https://abrajam83.github.io/memoria/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-enfoqueBlue font-bold underline hover:text-blue-400 transition"
+                            >
+                                click aquí
+                            </a>
+                        </p>
+                    </motion.div>
+                </div>
             </div>
 
             <div className="grid grid-cols-1 xl:grid-cols-2 w-full">

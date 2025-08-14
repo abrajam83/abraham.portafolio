@@ -21,6 +21,19 @@ import HilandoDerechos from "../components/HilandoDerechos"
 import NueveOnce from "../components/NueveOnce"
 import Monitoreo from "../components/Monitoreo"
 import Tmymv from "../components/Tmymv"
+import IberoCluster from "../components/IberoCluster"
+import Citibanamex from "../components/Citibanamex"
+import Contacto from "../components/Contacto"
+import Simo from "../components/Simo"
+import Truper from "../components/Truper"
+import NewLayout from "../components/NewLayout"
+import SideBar from "../components/SideBar"
+import LayoutPrincipal from "../components/LayoutPrincipal"
+import Logofolio from "../components/Logofolio"
+import LogoGallery from "../components/LogoGallery"
+import LogoModal from "../components/LogoModal"
+import TresDFolio from "../components/TresDFolio"
+import ImageComparisonSlider from "../components/ImageComparisonSlider"
 
 
 export{
@@ -47,4 +60,17 @@ export{
     NueveOnce,
     Monitoreo,
     Tmymv,
+    IberoCluster,
+    Citibanamex,
+    Contacto,
+    Simo,
+    Truper,
+    NewLayout,
+    SideBar,
+    LayoutPrincipal,
+    Logofolio,
+    LogoGallery,
+    LogoModal,
+    TresDFolio,
+    ImageComparisonSlider
 }

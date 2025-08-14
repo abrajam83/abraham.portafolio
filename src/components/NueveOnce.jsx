@@ -53,7 +53,7 @@ function MUCD() {
                 {/* Contenedor de imágenes (ocupa todo el ancho de la pantalla) */}
                 <div className="grid grid-cols-1 xl:grid-cols-2 w-full "  >
                     {/* Imagen 3 */}
-                    <div className="bg-nueveOnceBlue flex items-center justify-center px-20 lg:py-14 xl:py-30">
+                    <div className="bg-nueveOnceBlue flex items-center justify-center px-20 py-14 lg:py-14 xl:py-30">
                         <motion.div className="div"
                             ref={sectionRefs[1]}
                             initial={{ opacity: 0, y: 50 }}
@@ -62,7 +62,7 @@ function MUCD() {
                             <img
                                 src={NueveOnceTitulo}
                                 alt="Imagen 3"
-                                className="w-full xl:pl-52"
+                                className=" w-full px-10 lg:p-0 xl:pl-52"
                             />
                         </motion.div>
                     </div>
@@ -88,7 +88,7 @@ function MUCD() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-10 min-h-[850px] h-[400px] lg:min-h-[600px] max-w-screen-xl mx-auto pt-10 lg:pt-20 ">
 
-                    <motion.div className="flex text-center items-center md:text-start justify-center md:justify-start px-10 lg:py-10  "
+                    <motion.div className="flex items-center lg:items-start text-center md:text-start md:justify-start px-12 lg:pr-0 sm:pr-12 lg:py-10  "
                         ref={sectionRefs[2]}
                         initial={{ opacity: 0, y: 50 }}
                         animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
@@ -103,7 +103,7 @@ function MUCD() {
                         </motion.div>
                     </motion.div>
 
-                    <motion.div className="flex text-center items-center lg:items-start md:text-start justify-center md:justify-start px-10 lg:py-10 "
+                    <motion.div className="flex items-center text-center lg:items-start md:text-start md:justify-start px-12 sm:px-10 lg:py-10 "
                         ref={sectionRefs[2]}
                         initial={{ opacity: 0, y: 50 }}
                         animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
@@ -112,7 +112,7 @@ function MUCD() {
                             <h1 className='text-xl font-bold text-nueveOnceBlue mb-8'>
                                 ¿Cómo?
                             </h1>
-                            <p className=" font-notosans font-light leading-relaxed md:text-lg text-textlight">
+                            <p className="font-notosans font-light leading-relaxed md:text-lg text-textlight">
                                 La investigación se realizó mediante 8 entrevistas cualitativas a profundidad, a usuarios de diferentes edades, que hayan utilizado alguna vez los servicios de emergencias del 911, o tengan experiencia en el uso de aplicaciones relacionadas como GPS, apps familiares de monitoreo y otros servicios de emergencia como Alerta Sísmica o Cruz Roja.
                             </p>
                         </motion.div>
@@ -120,7 +120,7 @@ function MUCD() {
 
                     <motion.div
                         ref={sectionRefs[2]}
-                        className="flex text-center items-center md:text-start mx-auto justify-center px-10 lg:py-10 "
+                        className="flex items-center text-center lg:items-start md:text-start mx-auto pl-12 lg:pl-0 sm:pr-12 lg:py-10 "
                         initial={{ opacity: 0, y: 50 }}
                         animate={isInView[2] ? { opacity: 1, y: 0 } : {}}
                         transition={{ delay: 0.3, duration: 1 }}
@@ -184,7 +184,7 @@ function MUCD() {
                 transition={{ delay: 0.5, duration: 0.4 }}
             >
                 {/* Imagen 1 */}
-                <div className="bg-nueveOnceBlue flex items-center justify-center  lg:py-14 xl:py-40">
+                <div className="bg-nueveOnceBlue flex items-center justify-center lg:py-14 xl:py-40">
                     <motion.div
                         className="div"
                         initial={{ opacity: 0, y: 50 }}
